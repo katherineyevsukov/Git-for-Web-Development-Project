@@ -25,17 +25,24 @@ finished codepen URL paste here: https://codepen.io/k-yev/pen/VwpyJGm?editors=11
     12. How many times can I use the same class on a page? 
     You can use the same class multiple times on a page.
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
-    15. How do I reference an id?
+    Use target=_blank after the link.
+    14. What is the alt attribute in the image tag used for?
+    It is used to provide a description of the image for accessibility purposes. 
+    15. How do I reference an id? Using a #
     16. What is the difference between a section and a div
+    A section is semantic and has meaning, while a div does not.
     17. What is CSS used for? 
+    CSS is used for styling a website.
     18. How to we select an element? Example - every h2 on the page
+    You would type h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
+    Class is an attribute that can be applied to multiple elements for styling purposes. Id is an attribute that can only be used once on a page and is usually used to direct the reader somewhere on the page, not just for styling purposes. For example, you may use a class to style multiple sections on the page, while you could use ids to direct readers to specific sections on a page. 
+    20. How do we select classes in CSS? You would use a . to select a class. For example, a class named puppies would be selected by .puppies 
+    21. How do we select a p element with a single class of “human””? You would write p.human
+    22. What is a parent child selector? When would this be useful? The parent child selector selects all the elements that are children of a specific parent.
     23. How do you select all links within a div with the class of sidebar?
-    24. What is a pseudo selector?
+    You would write .sidebar a 
+    24. What is a pseudo selector? Pseudo selectors change the way an element appears when a user interacts with it--for example, hovering over it or clicking on it.
     25. What do we use the change the spacing between lines?
     26. What do we use to change the spacing between letters?
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
